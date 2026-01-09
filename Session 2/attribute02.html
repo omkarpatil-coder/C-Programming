@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[required]{
+            border: 2px solid green;
+        }
+        div[class~="card"]{
+            box-shadow: 0 0 10px gray;
+            border: 2px solid pink;
+             width: fit-content;
+             height: 100px;
+        }
+
+        div[class~="box"]{
+             box-shadow: 0 0 10px rgb(17, 143, 25);
+             border: 2px solid blueviolet;
+             height: 200px;
+             width: fit-content;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">Products</div>
+    <div class="box">Box Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, accusamus.</div>
+    <form action="">
+        <label for="" >Enter Name</label>
+        <input type="text" >
+        
+
+        <label for=""  >Enter Email</label>
+        <input type="email" required>
+
+        <label for="">Enter Password</label>
+        <input type="password">
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
