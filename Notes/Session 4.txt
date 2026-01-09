@@ -1,0 +1,71 @@
+ Background properties
+background-color: <color>;
+background-image: url("<path>");
+ background-repeat: <property>;		1.Default repeat 2.norepeat 3.repeat-x 4.repeat-y
+
+background-position: center center;		its working like x,y coordinates
+		left , center ,top ,right ,bottom
+ background-size:<property>;			auto,cover,contain
+
+ background-attachment:scroll;		scroll,fixed .....
+
+shortkey
+
+Module 11: Text & Font Styling
+
+Text properties
+
+Color
+text-align	left, right,center,justify
+text-decoration		underline,line-through,overline,none
+text-transform		transforms text into uppercase , lowercase,capitalize(first letter capital)
+letter spacing   (like gap between)
+Word-spacing	(gap in words)
+line-height	its working better without px
+
+text-indent		for paragraph
+
+-------------------------------------------------------------------------
+ Font properties
+font-family	style of text
+ex
+	arial
+	sans-serif
+	
+font-size	height of text
+font-weight	size of bolding
+font-style	normal/italic
+font-variant	it is used for small capital letters
+google fonts
+
+Text alignment & spacing 
+text-align	left, right,center,justify
+line-height	its working better without px
+
+
+
+Using all 11 modules for example
+student form
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Font properties
+Google Fonts
+Text alignment & spacing 

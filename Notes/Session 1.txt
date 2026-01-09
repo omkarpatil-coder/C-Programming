@@ -1,0 +1,114 @@
+
+Phase 2: CSS Fundamentals & Advanced Styling
+Module 8: Introduction to CSS
+What Is Css?
+CSS Stands for cascading style sheet
+
+Applying css types?
+Inline,Internal,Externa
+
+Inline is We are applying css in element of html
+internal is applying css using id selector,class selector,element selector,pseudo class selector.
+
+Why css is requires?
+Before css Pages are black and white text
+No spacing
+No layout
+
+With css :
+Colors 
+Font
+Proper spacing
+Responsive layouts
+
+What is responsive?
+Write once run any device
+16:9
+16:10
+After one propert applying semicolon must;
+Syntax
+selector {
+property:value;
+}
+
+comment in css
+/*<comment section>*/
+inline css apply syntax
+<tag name style = "propert:value;"></ending tag>
+
+How many types of css?
+Inline , Internal ,External;
+
+Internal css
+
+Internal css is requires inside of head tag style tag 
+immediate of closing tag we need style tag
+
+External css
+External css is requires .css extention file
+We need import in head tag 
+and import using link 
+href="path"
+Hypertext reference
+optional rel="stylesheet"
+-----------------------important--------------
+Css Priority
+inline(Highest)
+Internal(Medium)
+External (Lowest)
+
+When Applyng style sheets 
+Internal and external decides where to declare and that declaration 
+Sets its priority
+
+Font Size : px;
+-----------------------------------------------------------------
+Module 9: CSS Selectors
+Element, class, ID selectors
+Grouping & nested selectors
+AƩribute selectors
+Pseudo-classes & pseudo-elements (Master)
+
+What is selector
+Selector is selecting html elements using their property,value,is,class...
+Element selector is html names selectors.
+Id Selector:
+	Id selector is unique.
+	Declaration
+	<tagname id="<value>"></closing tag>
+	We can acces in internal css or external css
+	and most important we access usinh #<value>{property:value;}
+Class Selector:
+	Class selector used for buncg of collection
+	Class selects element with a specific name 
+	Declaration
+	<tagname class="<value>"></closing tag>
+	We can acces in internal css or external css
+	and most important we access using .<value>{property:value;}
+	Multiple class we can use using space and then class name
+
+
+
+
+Grouping selector
+	Collection of elements
+	select multiple elements using comma saperated
+	syntax	h1,h2,h3{} 
+
+Nested (Descendant) selector
+	Relation like parent child
+	Syntax parent child grand child {}
+
+Child Selector
+	using >
+	parent > child
+
+
+
+------------------------------------------------------------------------
+
+
+
+
+
+

@@ -1,0 +1,84 @@
+2.pseudo element
+::
+element or property name ::types
+
+before	Insert content before element content
+after	Insert content after element content
+first-letter
+first-line
+selection
+
+1.pseudo class	
+:has(condition)			like if else conditions
+:is(multiple selectors)
+
+Assignment For Self Study
+
+:empty				error messege show or hide
+:only-child
+:first-of-type
+:last-of-type
+:nth-of-type
+:placeholder-shown
+:read-only
+::marker
+::file-selector-button
+
+--------------'
+
+Module 10 
+colors format
+HEX
+	Hexadecimal
+	#RRGGBB/#RGB
+Red	#ff0000
+
+Green	#00ff00
+Blue	#0000ff
+
+
+RGB
+Red Green Blue
+(255,128,255)
+
+RGBA	alpha = transperency
+A	alpha	0 to 1
+
+Units (px, %, em, rem, vh, vw)
+Units is called for measuring (height,wdth,font-size)
+px	pixel
+ 
+ % percent	type relative(depends on parent)
+.<name>			shortcut div tag and class
+
+em	Parent font-size
+1em = parent font size
+only works on nested elements 
+
+rem 	root html font size
+Nested Stable
+
+vh	Relative to screen height
+Viewport height
+
+vw	Relative to screen width
+Viewport width
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+Attributr selector
+
+Syntax
+[attribute]{property:value}
+
+attribute selector is used for when multiple forms have in a page we can use attribute selector
+
+When using class as a attribute syntax
+	div[class~="card"]{property:value}
+width or height Fit content 
+	 a[href^="http"]
+
+ when using lang attribute p[lang|="en"]{
+            color: blue;
+        }
+when using ancher a[href^="<value>"]{}
+
+-------------------Important Pseudo selector ---------------
+there are two types in pseudo selector
+1.pseudo class			In element state / condition applying style  access :
+2.pseudo element		Elements specific part appltying style.	::
+
+1.pseudo class	
+
+<element>:hover{}
+hover   mouse hover
+active	mouse click
+focus	it is used fot input tags for selected tag curser selected input box
+visited	when clicked website ancher tag
+link	when user cannot clicked link
+hover
+active
+
+Pseudo class structure based accessing
+first-child
+last-child
+nth-child(n)
+	types even , odd ,numbers
+
+not	Excluding	(<class or id or attribute or element>)
+in required	valid invalid
+
+
+2.pseudo element
+
+
+
+
